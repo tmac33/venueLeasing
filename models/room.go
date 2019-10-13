@@ -10,7 +10,7 @@ type Room struct {
 	RoomId      int `orm:"pk;auto"` //pk primary key
 	Name        string
 	PosNum      int `orm:"size(10)"`
-	Dsec        string
+	Desc        string
 	StartTime   string
 	EndTime     string
 	Status      int       `orm:"default(1)"`
